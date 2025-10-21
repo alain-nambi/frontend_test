@@ -1,14 +1,16 @@
-import './App.css'
+// import './App.css'
 import MultiSelectComponent from './components/multiselect'
+import Login from './components/auth/login.jsx'
 
 function App() {
   return (
-    <>
-      <p>Ceci est notre premier composant</p>
+    <div>
+      {/* <p>Ceci est notre premier composant</p> */}
+      <Login />
 
       {/* Composant importé */}
-      <MultiSelectComponent></MultiSelectComponent>
-    </>
+      {/* <MultiSelectComponent></MultiSelectComponent> */}
+    </div>
   )
 }
 
